@@ -20,8 +20,7 @@ Need to contact me? Here are some of my socials!
 - Roblox Username: kittykat_me0wzer
 
 
-# Modrinth Description 🟢
-    # Vignette ➕
+# Vignette ➕
     Adds customizable _vignettes_ ( borders around your screen ) to Minecraft when certain things happen\
     \
     **There are currently 3 vignettes added into the mod** 🟢
