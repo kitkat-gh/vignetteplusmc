@@ -1,0 +1,46 @@
+{
+	"schemaVersion": 1,
+	"id": "vignetteplus",
+	"version": "1.0.0",
+	"name": "Vignette +",
+	"description": "Adds customizable vignettes ( borders around your screen ) to Minecraft when certain things happen",
+	"authors": [
+		"kitkat_m"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/kitkat_m",
+		"sources": "https://github.com/kitkat-gh/vignetteplusmc",
+		"issues": "https://github.com/kitkat-gh/vignetteplusmc/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/vignetteplus/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"kitkat.vignetteplus.Vignetteplus"
+		],
+		"client": [
+			"kitkat.vignetteplus.client.VignetteplusClient"
+		],
+		"modmenu": [
+			"kitkat.vignetteplus.client.VignetteplusModMenu"
+		]
+	},
+	"mixins": [
+		"vignetteplus.mixins.json",
+		{
+			"config": "vignetteplus.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "=26.3",
+		"java": ">=25",
+		"fabric-api": "*",
+		"cloth-config": ">=26.3.158"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
