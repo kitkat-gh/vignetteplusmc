@@ -34,7 +34,7 @@ I will never backport this mod to older versions, as in older versions of minecr
 Minecraft Version Range:\
 {26.3}\
 Vignette + Version: 1.0.0\
-Mod build date: 10/16/2026\
+Mod build date: 10/16/2026
 
 # Credits ⭐
 
